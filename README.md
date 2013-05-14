@@ -12,10 +12,14 @@ by [Michael Hartl](http://michaelhartl.com/). You can use this reference impleme
 
     Create new repository on github
     Follow their instructions to push the clone to Github 
-    
+
     $ bundle install --without production
     $ bundle exec rake db:migrate
     $ bundle exec rake db:test:prepare
     $ bundle exec rspec spec/
+
+    https://devcenter.heroku.com/articles/paperclip-s3
+    https://github.com/galetahub/ckeditor
+    https://github.com/tsechingho/ckeditor-rails
 
 If the tests don't pass, it means there may be something wrong with your system. If they do pass, then you can debug your code by comparing it with the reference implementation.
