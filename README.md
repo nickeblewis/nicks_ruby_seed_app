@@ -1,12 +1,18 @@
-# Ruby on Rails Tutorial: sample application
+# Nick's Ruby 'Seed' Application
 
 This is the sample application for
 [*Ruby on Rails Tutorial: Learn Web Development with Rails*](http://railstutorial.org/)
 by [Michael Hartl](http://michaelhartl.com/). You can use this reference implementation to help track down errors if you end up having trouble with code in the tutorial. In particular, as a first debugging check I suggest getting the test suite to pass on your local machine:
 
     $ cd /tmp
-    $ git clone git@github.com:railstutorial/sample_app_2nd_ed.git
-    $ cd sample_app_2nd_ed
+    $ git clone git@github.com:nickeblewis/nicks_ruby_seed_app.git yournewrepository
+    $ cd yournewrepository
+    $ git remote rm origin
+    $ git init
+
+    Create new repository on github
+    Follow their instructions to push the clone to Github 
+    
     $ bundle install --without production
     $ bundle exec rake db:migrate
     $ bundle exec rake db:test:prepare
