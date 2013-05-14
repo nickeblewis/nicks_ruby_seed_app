@@ -7,7 +7,7 @@ by [Michael Hartl](http://michaelhartl.com/). You can use this reference impleme
     $ cd /tmp
     $ git clone git@github.com:railstutorial/sample_app_2nd_ed.git
     $ cd sample_app_2nd_ed
-    $ bundle install
+    $ bundle install --without production
     $ bundle exec rake db:migrate
     $ bundle exec rake db:test:prepare
     $ bundle exec rspec spec/
